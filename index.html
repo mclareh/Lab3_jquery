@@ -43,12 +43,29 @@
 		<div class="form">
 			<div class="closeForm">x</div>
 			<h3>New Reservation</h3>
-			<h4>Table Number:</h4>
-			<input type="text" placeholder="Name">
-			<input type="text" placeholder="Number">
-			<input type="text" placeholder="Party Size">
+			<h4></h4>
+			<input id="name-id" type="text" placeholder="Name">
+			<input id="num-id" type="text" placeholder="Number">
+			<input id="party-id" type="text" placeholder="Party Size">
 			<button class="submit">SAVE</button>
 		</div>
+		
+			<div class="table">
+				<table>
+				  <tr>
+					<td>Party Name:</td>
+					<td class="tableName"></td> 
+				  </tr>
+				  <tr>
+					<td>Party Number:</td>
+					<td class="tableNum"></td> 
+				  </tr>					
+				  <tr>
+					<td>Party Size: </td> 
+					<td class="tableParty"></td> 
+				  </tr>
+				</table>
+			</div>
 		
 		<script src="scripts/jquery-3.2.1.min.js"></script>
 		<script src="scripts/script.js"></script>
